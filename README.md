@@ -3,6 +3,6 @@ As you may know, the [Microsoft GraphRAG](https://microsoft.github.io/graphrag/)
 
 **1-** [Use the GraphRAG Accelerator solution](https://github.com/Azure-Samples/graphrag-accelerator) by deploying it in Azure,  
 
-**2-** [Install from pypi](https://pypi.org/project/graphrag/) by using ```python pip install graphrag ```,
+**2-** [Install from pypi](https://pypi.org/project/graphrag/) by using ```pip install graphrag ```,
 
 **3-** [Use it from source](https://microsoft.github.io/graphrag/posts/developing/)
