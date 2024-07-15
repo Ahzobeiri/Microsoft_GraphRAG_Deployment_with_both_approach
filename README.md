@@ -7,8 +7,10 @@ As you may know, the [Microsoft GraphRAG](https://microsoft.github.io/graphrag/)
 
 **3-** [Use it from source](https://microsoft.github.io/graphrag/posts/developing/) by Python "[Poetry](https://python-poetry.org/docs/#installing-with-pipx)" packaging.
 
-Microsoft recommends trying the first approach i.e. the "Solution Accelerator package" in Microsoft Azure. In this repo, I will provide all the processes and necessary steps for deploying and developing the GrapRAG in Azure.
+Microsoft recommends trying the first approach i.e. the "Solution Accelerator package" in Microsoft Azure. In this repo, I will provide all the necessary steps for each of the above three approaches to deploy and develop the GrapRAG, making it ready for our custom projects.
 
+
+# Deploy GraphRAG in Microsoft Azure
 To deploy GraphRAG in Azure, initially, the following prerequisite tools should be installed:
 
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) >= v2.55.0
