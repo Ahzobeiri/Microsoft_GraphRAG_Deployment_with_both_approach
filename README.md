@@ -11,8 +11,9 @@ Microsoft recommends trying the first approach i.e. the "Solution Accelerator pa
 
 
 # 1- Deploy GraphRAG in Microsoft Azure
-To deploy GraphRAG in Azure, initially, the following prerequisite tools should be installed:
+Before installing the GraphRAG in Azure, we first should set the requirements up according to our different systems. As I'm working with the Linux OS in Azure, I will provide the necessary steps for developing GraphRAG based on Linux settings.
 
+To deploy GraphRAG in Azure, initially, the following prerequisite tools should be installed:
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) >= v2.55.0
 * awk - a standard linux utility
 * cut - a standard linux utility
