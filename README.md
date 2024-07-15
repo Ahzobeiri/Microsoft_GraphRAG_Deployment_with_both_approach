@@ -10,7 +10,7 @@ As you may know, the [Microsoft GraphRAG](https://microsoft.github.io/graphrag/)
 Microsoft recommends trying the first approach i.e. the "Solution Accelerator package" in Microsoft Azure. In this repo, I will provide all the necessary steps for each of the above three approaches to deploy and develop the GrapRAG, making it ready for our custom projects.
 
 
-# Deploy GraphRAG in Microsoft Azure
+# 1- Deploy GraphRAG in Microsoft Azure
 To deploy GraphRAG in Azure, initially, the following prerequisite tools should be installed:
 
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) >= v2.55.0
