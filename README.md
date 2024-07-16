@@ -26,7 +26,8 @@ To deploy GraphRAG in Azure, initially, the following prerequisite tools should 
 
 As these tools should be installed based on the Linux distribution that you have, before installing these tools we first should identify the Linux distribution. To this end, run the following command in the terminal to determine the distribution name and version:
 ```python
-cat /etc/os-release```
+cat /etc/os-release
+```
 
 
 (**NOTE:** You can connect your VSCode to the Azure server by installing the Remote-SSH extension of VSCode and then connect to Azure Host with Remote-SSH by having a User, Pass of the Azure server)
