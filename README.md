@@ -55,13 +55,15 @@ ollama run llama3.1:8b
 llm:
   # api_key: ${GRAPHRAG_API_KEY}
   api_key: ollama #$ or (GROQ_API_KEY)
-  type: azure_openai_chat
-  model: gpt-4o
+  type: openai_chat
+  model: llama3
   model_supports_json: true # recommended if this is available for your model.
   # max_tokens: 4000
   # request_timeout: 180.0
   api_base: https://tensurfbrain1.openai.azure.com/
 ```
+You should replace the ```api-key``` with ```ollama```, ```type``` to ```openai_chat``` (as ollama follows the same standard as openai); and the ```model``` with ```llama3```; and since the Ollama also supports the JSON mode so you can set the ```model_supports_json``` to ```true```
+It is also important to set the ```api_base: https://localhost:11434/v1```
 
 
 
