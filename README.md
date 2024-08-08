@@ -34,3 +34,19 @@ cat /etc/os-release
 
 # 2- Install GraphRAG from pypi (using pip install)
 
+**Using LLama-3 and Ollama:**
+
+As Llama-3 is  open source and free, we tried to use Llama-3 rather than GPT4o and Azure-Open-AI to decrease costs and prices due to the number of requests. We also installed Ollama in the local system to use Llama-3.
+
+1- If you don't have Ollama, you can freely download it from the [website](https://ollama.com/) after creating an account. For Linux systems, you can install it with the following command:
+
+```python
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+To check that if you correctly install the Ollama you can run ```python
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+
+
