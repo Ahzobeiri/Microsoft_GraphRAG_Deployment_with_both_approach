@@ -7,7 +7,7 @@ As you may know, the [Microsoft GraphRAG](https://microsoft.github.io/graphrag/)
 
 **3-** [Use it from source](https://microsoft.github.io/graphrag/posts/developing/) by Python "[Poetry](https://python-poetry.org/docs/#installing-with-pipx)" packaging.
 
-Microsoft recommends trying the first approach i.e. the "Solution Accelerator package" in Microsoft Azure. In this repo, I will provide all the necessary steps for each of the above three approaches to deploy and develop the GrapRAG, making it ready for our custom projects.
+Microsoft recommends trying the first approach i.e. the "Solution Accelerator package" in Microsoft Azure. In this repo, I will provide all the necessary steps for each of the above three approaches to deploy and develop the GrapRAG, making it ready for your custom datasets.
 
 
 # 1- Deploy GraphRAG in Microsoft Azure
