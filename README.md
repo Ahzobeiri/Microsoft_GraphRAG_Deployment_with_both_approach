@@ -34,7 +34,7 @@ cat /etc/os-release
 
 # 2- Install GraphRAG from pypi (using pip install)
 
-**Using LLama-3 and Ollama:**
+**Using LLama-3.1 and Ollama:**
 
 As Llama-3 is  open source and free, we tried to use Llama-3 rather than GPT4o and Azure-Open-AI to decrease costs and prices due to the number of requests. We also installed Ollama in the local system to use Llama-3.
 
@@ -56,14 +56,21 @@ llm:
   # api_key: ${GRAPHRAG_API_KEY}
   api_key: ollama #$ or (GROQ_API_KEY)
   type: openai_chat
-  model: llama3
+  model: llama3.1
   model_supports_json: true # recommended if this is available for your model.
   # max_tokens: 4000
   # request_timeout: 180.0
-  api_base: https://tensurfbrain1.openai.azure.com/
+  api_base: https://localhost:11434/v1
 ```
-You should replace the ```api-key``` with ```ollama```, ```type``` to ```openai_chat``` (as ollama follows the same standard as openai); and the ```model``` with ```llama3```; and since the Ollama also supports the JSON mode so you can set the ```model_supports_json``` to ```true```
-It is also important to set the ```api_base: https://localhost:11434/v1```
+You should replace the ```api-key``` with ```ollama```, ```type``` to ```openai_chat``` (as ollama follows the same standard as openai); and the ```model``` with ```llama3```; and since the Ollama also supports the JSON mode so you can set the ```model_supports_json``` to ```true```.
+It is also important to set the ```api_base: https://localhost:11434/v1```. 
+
+**Using LLama-3 and Groq:**
+You should change the ```api_base``` to the following API endpoint:
+```python
+api_base: https://api.qroq.com/openai/v1
+```
+
 
 
 
