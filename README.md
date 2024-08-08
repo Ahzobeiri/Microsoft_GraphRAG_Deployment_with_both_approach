@@ -44,8 +44,7 @@ As Llama-3 is  open source and free, we tried to use Llama-3 rather than GPT4o a
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-To check that if you correctly install the Ollama you can run ```python
-curl -fsSL https://ollama.com/install.sh | sh
+To check if you correctly install the Ollama you can run ```ollama --help``` and see the output of available commands for Ollama
 ```
 
 
