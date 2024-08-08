@@ -39,12 +39,16 @@ cat /etc/os-release
 As Llama-3 is  open source and free, we tried to use Llama-3 rather than GPT4o and Azure-Open-AI to decrease costs and prices due to the number of requests. We also installed Ollama in the local system to use Llama-3.
 
 1- If you don't have Ollama, you can freely download it from the [website](https://ollama.com/) after creating an account. For Linux systems, you can install it with the following command:
-
 ```python
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 To check if you correctly install the Ollama you can run ```ollama --help``` and see the output of available commands for Ollama.
+
+2- Next you should download [Llama3.1](https://ollama.com/library/llama3.1) model based on three options on the number of parameters (8b, 70b, and 405b) that you want. For instance, for using the 8b parameter model, you should run the following code:
+```python
+ollama run llama3.1:8b
+```
 
 
 
