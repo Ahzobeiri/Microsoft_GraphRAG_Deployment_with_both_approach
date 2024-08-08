@@ -1,4 +1,4 @@
-# Microsoft_GraphRAG_Accelerator_deployment_in_Linux_Azure
+# Microsoft_GraphRAG_Accelerator_deployment_using_both_pip_install_and_GraphRAG Accelerator_in_Linux_Azure
 As you may know, the [Microsoft GraphRAG](https://microsoft.github.io/graphrag/) team published the [Github repo](https://github.com/microsoft/graphrag) and Python code library for implementing GraphRAG in early July 2024. To get started with the GraphRAG system, Microsoft provided several options, including:
 
 **1-** [Use the GraphRAG Accelerator solution](https://github.com/Azure-Samples/graphrag-accelerator) by deploying it in Azure,  
