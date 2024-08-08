@@ -50,5 +50,18 @@ To check if you correctly install the Ollama you can run ```ollama --help``` and
 ollama run llama3.1:8b
 ```
 
+3- now you should change the ```settings.yaml``` file based on Llama-3 and Ollama configuration settings. As Llama-3 follows the same API standard as Open-AI API, we don't have much hard work to do. In the ```llm``` part of the ```settings.yaml``` we should make some changes as follow:
+```python
+llm:
+  # api_key: ${GRAPHRAG_API_KEY}
+  api_key: ollama #$ or (GROQ_API_KEY)
+  type: azure_openai_chat
+  model: gpt-4o
+  model_supports_json: true # recommended if this is available for your model.
+  # max_tokens: 4000
+  # request_timeout: 180.0
+  api_base: https://tensurfbrain1.openai.azure.com/
+```
+
 
 
