@@ -10,7 +10,7 @@ As you may know, the [Microsoft GraphRAG](https://microsoft.github.io/graphrag/)
 Microsoft recommends trying the first approach i.e. the "Solution Accelerator package" in Microsoft Azure. In this repo, I will provide all the necessary steps for each of the above three approaches to deploy and develop the GrapRAG, making it ready for your custom datasets.
 
 
-# 1- Deploy GraphRAG in Microsoft Azure
+# 1- Deploy GraphRAG Accelerator in Microsoft Azure
 Before installing the GraphRAG in Azure, we first should set the requirements up according to our different systems. As I'm working with the Linux OS in Azure, I will provide the necessary steps for developing GraphRAG based on Linux settings.
 
 To deploy GraphRAG in Azure, initially, the following prerequisite tools should be installed:
@@ -32,4 +32,5 @@ cat /etc/os-release
 
 (**NOTE:** You can connect your VSCode to the Azure server by installing the Remote-SSH extension of VSCode and then connect to Azure Host with Remote-SSH by having a User, Pass of the Azure server)
 
+# 2- Install GraphRAG from pypi (using pip install)
 
