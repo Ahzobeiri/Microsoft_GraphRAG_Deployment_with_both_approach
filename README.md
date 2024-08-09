@@ -88,6 +88,8 @@ api_base: https://api.qroq.com/openai/v1
 **Note:** Most of the models in groq has Requests_per_minute limits, and so you should also change the ```# tokens_per_minute``` and ```requests_per_minute``` too.
 For instance, for llama3-70b-8192 the ```REQUESTS PER MINUTE``` is 30 and ```TOKENS PER MINUTE``` is 6000 so it would be logical to set these numbers properly.
 
+It should be also noted that for the **embedding** part it is ok to use the open-AI embedding model as there is not really good standard API when it comes to the **embedding** models and when working with local embedding models of open-AI, the cost associated with these **embedding** models is pretty smaller compared to the **LLM** ones.
+
 
 
 
