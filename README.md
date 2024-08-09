@@ -66,10 +66,29 @@ You should replace the ```api-key``` with ```ollama```, ```type``` to ```openai_
 It is also important to set the ```api_base: https://localhost:11434/v1```. 
 
 **Using LLama-3 and Groq:**
+```python
+llm:
+  api_key: GROQ_API_KEY
+  type: openai_chat
+  model: llama3-70b-8192
+  model_supports_json: true # recommended if this is available for your model.
+  max_tokens: 4000
+  # request_timeout: 180.0
+  api_base: https://api.qroq.com/openai/v1
+  # organization: <organization_id>
+  # deployment_name: gpt-4o
+  tokens_per_minute: 5500 # set a leaky bucket throttle
+  requests_per_minute: 25 # set a leaky bucket throttle
+```
 You should change the ```api_base``` to the following API endpoint:
 ```python
 api_base: https://api.qroq.com/openai/v1
 ```
+
+**Note:** Most of the models in groq has Requests_per_minute limits, and so you should also change the ```# tokens_per_minute``` and ```requests_per_minute``` too.
+For instance, for llama3-70b-8192 the ```REQUESTS PER MINUTE``` is 30 and ```TOKENS PER MINUTE``` is 6000 so it would be logical to set these numbers properly.
+
+
 
 
 
